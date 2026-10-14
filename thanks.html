@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thanks — Hunters' Den</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:#fcf9f3;
+    color:#5c4a3d;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:16px;
+    line-height:1.65;
+  }
+  .skip{
+    position:absolute;left:-9999px;top:0;
+    background:#1a3d2e;color:#fff;padding:10px 16px;z-index:100;
+  }
+  .skip:focus{left:8px;top:8px;}
+  .wrap{width:1000px;max-width:92%;margin:0 auto;}
+
+  header.site{
+    background:#1a3d2e;
+    color:#f5e6c8;
+    padding:18px 0 0;
+    position:sticky;top:0;z-index:50;
+  }
+  .brand{display:flex;align-items:center;}
+  .brand svg{flex:0 0 auto;margin-right:16px;}
+  .brand .name{font-family:Verdana,Geneva,sans-serif;font-weight:bold;font-size:30px;letter-spacing:3px;color:#f5e6c8;text-transform:uppercase;}
+  .brand .tag{
+    font-size:12px;letter-spacing:4px;text-transform:uppercase;
+    color:#e89b50;
+  }
+  nav.main{margin-top:14px;border-top:1px solid rgba(245,230,200,.25);}
+  nav.main ul{
+    list-style:none;display:flex;flex-wrap:wrap;
+  }
+  nav.main a{
+    display:block;
+    color:#f5e6c8;
+    text-decoration:none;
+    font-family:Verdana,Geneva,sans-serif;
+    font-size:13px;font-weight:bold;
+    letter-spacing:2px;text-transform:uppercase;
+    padding:14px 18px 14px 0;
+    margin-right:14px;
+    border-bottom:2px solid transparent;
+  }
+  nav.main a:hover,nav.main a:focus{
+    border-bottom-color:#e89b50;color:#fff;
+  }
+  nav.main a:visited {
+    color: #c5b8a3;
+  }
+  nav.main a:visited:hover,
+  nav.main a:visited:focus {
+    color: #fff;
+  }
+  main{padding:80px 0;}
+  h1{
+    font-family:Verdana,Geneva,sans-serif;color:#1a3d2e;
+    font-size:34px;letter-spacing:2px;text-transform:uppercase;
+    margin-bottom:16px;
+  }
+  .btn{
+    display:inline-block;background:#a94c31;color:#fff;
+    font-family:Verdana,Geneva,sans-serif;font-weight:bold;font-size:15px;
+    letter-spacing:2px;text-transform:uppercase;text-decoration:none;
+    padding:15px 30px;border-radius:999px;margin-top:26px;
+  }
+  .btn:hover,.btn:focus{background:#8f3f28;}
+  .btn:visited{color: #fff;}
+  main a:link{color:#a94c31;}
+  main a:visited{color:#8f7a5a;}
+  footer.site{
+    background:#14110d;color:#cbbfa8;
+    padding:52px 0 40px;font-size:14px;
+  }
+  footer.site h2{color:#f5e6c8;font-size:18px;margin-bottom:14px;}
+  footer.site ul{list-style:none;display:flex;flex-wrap:wrap;margin-bottom:26px;}
+  footer.site ul li{margin-right:22px;margin-bottom:6px;}
+  footer.site a:link{color:#e89b50;text-decoration:none;}
+  footer.site a:visited{color:#9a8f7a;}
+  footer.site a:hover,footer.site a:focus{text-decoration:underline;}
+  .fine{border-top:1px solid #3a342a;padding-top:18px;margin-top:8px;font-size:13px;color:#9a8f7a;}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site" role="banner">
+  <div class="wrap">
+    <div class="brand">
+      <svg width="72" height="56" viewBox="0 0 72 56" role="img" aria-label="Hunters' Den deer antler logo">
+        <g fill="none" stroke="#e89b50" stroke-width="3" stroke-linecap="round">
+          <path d="M30 52 C 26 40, 20 34, 12 30"/>
+          <path d="M24 42 C 18 42, 12 44, 8 48"/>
+          <path d="M20 36 C 15 33, 10 32, 5 33"/>
+          <path d="M15 29 C 12 24, 8 21, 4 20"/>
+          <path d="M42 52 C 46 40, 52 34, 60 30"/>
+          <path d="M48 42 C 54 42, 60 44, 64 48"/>
+          <path d="M52 36 C 57 33, 62 32, 67 33"/>
+          <path d="M57 29 C 60 24, 64 21, 68 20"/>
+        </g>
+        <circle cx="36" cy="50" r="4" fill="#e89b50"/>
+      </svg>
+      <div>
+        <div class="name">Hunters' Den</div>
+        <div class="tag">Farm Hunting Expeditions · Manawatu NZ</div>
+      </div>
+    </div>
+    <nav class="main" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#packages">Hunts &amp; Packages</a></li>
+        <li><a href="index.html#why">Why Us</a></li>
+        <li><a href="index.html#safety">Safety &amp; Training</a></li>
+        <li><a href="index.html#lodge">The Farm</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <h1>Booking Request Received</h1>
+    <p>Thanks — your request has been sent to our team. We usually reply within two working days.</p>
+    <p>For anything urgent, email <a href="mailto:info@huntersden.nz">info@huntersden.nz</a>.</p>
+    <a class="btn" href="index.html">Back to the Homepage</a>
+  </div>
+</main>
+
+<footer class="site" id="contact" role="contentinfo">
+  <div class="wrap">
+    <h2>Hunters' Den</h2>
+    <ul aria-label="Footer navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#packages">Hunts &amp; Packages</a></li>
+      <li><a href="index.html#why">Why Us</a></li>
+      <li><a href="index.html#safety">Safety &amp; Training</a></li>
+      <li><a href="index.html#lodge">The Farm</a></li>
+    </ul>
+    <p>Bookings &amp; enquiries: <a href="mailto:info@huntersden.nz">info@huntersden.nz</a><br>
+    Manawatu, New Zealand</p>
+    <ul aria-label="Useful links">
+      <li><a href="https://www.mountainsafety.org.nz" target="_blank" rel="noopener noreferrer">Mountain Safety Council</a></li>
+      <li><a href="https://www.doc.govt.nz/parks-and-recreation/things-to-do/hunting/" target="_blank" rel="noopener noreferrer">NZ Dept of Conservation — Hunting</a></li>
+      <li><a href="https://www.police.govt.nz/" target="_blank" rel="noopener noreferrer">NZ Police</a></li>
+    </ul>
+    <p class="fine">© 2026 Hunters' Den. All rights reserved. · Last updated: 23 September 2026 · Sample page layout by BlueFish Media Design — Group 20</p>
+  </div>
+</footer>
+
+</body>
+</html>
